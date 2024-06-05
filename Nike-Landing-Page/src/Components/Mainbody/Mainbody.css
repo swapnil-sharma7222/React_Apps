@@ -1,0 +1,69 @@
+.main-body {
+    display: flex;
+    /* border: 1px solid red; */
+    height: 100vh;
+    padding: 4rem;
+}
+
+.text {
+    /* border: 1px solid red; */
+    width: 60%;
+    height: 100%;
+}
+
+.text .title {
+    font-size: 5rem;
+    font-weight: 800;
+    padding-left: 5rem;
+    line-height: 6rem;
+}
+
+.text .tagline {
+    padding-left: 5.1rem;
+}
+
+.text .shop-now {
+    /* all: unset; */
+    background: #D81D16;
+    border-radius: 0.2rem;
+    padding: 0.4rem 0.8rem;
+    color: white;
+    margin: 1rem 1rem 1rem 5rem;
+}
+
+.text .know-more {
+    border-radius: 0.2rem;
+    padding: 0.4rem;
+    background-color: white;
+    margin: 1rem;
+}
+
+.photo {
+    /* border: 1px solid blue; */
+    width: 40%;
+    height: 100%;
+}
+
+@media(max-width: 600px) {
+    .main-body {
+        display: block;
+        padding: .5rem;
+        height: auto;
+    }
+
+    .main-body .text {
+        width: 100%;
+    }
+
+    .text .title {
+        padding-left: 1rem;
+    }
+
+    .text .tagline {
+        padding-left: 1rem;
+    }
+
+    .main-body .photo {
+        width: 100%;
+    }
+}
